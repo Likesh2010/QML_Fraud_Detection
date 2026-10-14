@@ -1,0 +1,7 @@
+services:
+  qml-app:
+    build: .
+    container_name: qml_fraud_detection
+    ports:
+      - "8501:8501"
+    restart: unless-stopped

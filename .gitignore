@@ -1,0 +1,26 @@
+# Python virtual environments & bytecode
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Raw Datasets (> 100 MB exceeds GitHub push limit)
+# The application automatically falls back to data/creditcard_sample.csv for cloud deployment
+data/creditcard.csv
+qml_fraud_v2/creditcard.csv
+**/creditcard.csv
+*.csv.zip
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
